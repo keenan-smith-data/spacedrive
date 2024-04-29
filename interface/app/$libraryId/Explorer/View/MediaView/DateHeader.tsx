@@ -7,7 +7,6 @@ import { useExplorerViewContext } from '../Context';
 
 export const DATE_HEADER_HEIGHT = 140;
 
-// million-ignore
 export const DateHeader = ({ date }: { date?: string }) => {
 	const isDark = useIsDark();
 

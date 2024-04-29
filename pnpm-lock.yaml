@@ -934,10 +934,6 @@ importers:
         version: 5.4.2
 
   packages/config:
-    dependencies:
-      million:
-        specifier: ^2.6.4
-        version: 2.6.4
     devDependencies:
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.3.1
@@ -9977,10 +9973,6 @@ packages:
     resolution: {integrity: sha512-115fLhvZVqWwHPbClyntxEVfVDfl9DLLTuJvq3g2O/Oxi8AiNouAHvDSzHS0viUJc+V5vm3eq91Xwqn9dp4jRA==}
     hasBin: true
 
-  million@2.6.4:
-    resolution: {integrity: sha512-voUkdd/jHWrG+7NS+mX49Pat+POKdgGW78V7pYMSrTaOjUitR6ySEcAci8hn17Rsx1IMI3+5w41dkADM1J1ZEg==}
-    hasBin: true
-
   mime-db@1.52.0:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
     engines: {node: '>= 0.6'}
@@ -11666,11 +11658,6 @@ packages:
     peerDependenciesMeta:
       rollup:
         optional: true
-
-  rollup@3.29.4:
-    resolution: {integrity: sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==}
-    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
-    hasBin: true
 
   rollup@4.13.0:
     resolution: {integrity: sha512-3YegKemjoQnYKmsBlOHfMLVPPA5xLkQ8MHLLSw/fBrFaVkEayL51DilPpNNLq1exr98F2B1TzrV0FUlN3gWRPg==}
@@ -25045,19 +25032,6 @@ snapshots:
       bn.js: 4.12.0
       brorand: 1.1.0
 
-  million@2.6.4:
-    dependencies:
-      '@babel/core': 7.24.0
-      '@babel/generator': 7.23.6
-      '@babel/plugin-syntax-jsx': 7.23.3(@babel/core@7.24.0)
-      '@babel/plugin-syntax-typescript': 7.23.3(@babel/core@7.24.0)
-      '@babel/types': 7.24.0
-      kleur: 4.1.5
-      rollup: 3.29.4
-      unplugin: 1.10.0
-    transitivePeerDependencies:
-      - supports-color
-
   mime-db@1.52.0: {}
 
   mime-types@2.1.35:
@@ -26955,10 +26929,6 @@ snapshots:
       yargs: 17.7.2
     optionalDependencies:
       rollup: 4.13.0
-
-  rollup@3.29.4:
-    optionalDependencies:
-      fsevents: 2.3.3
 
   rollup@4.13.0:
     dependencies:

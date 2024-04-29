@@ -104,7 +104,6 @@ export const ClientContextProvider = ({
 	);
 };
 
-// million-ignore
 export const useClientContext = () => {
 	const ctx = useContext(ClientContext);
 
