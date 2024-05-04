@@ -191,7 +191,7 @@ case "$(uname)" in
       fi
 
       # Tauri dependencies
-      set -- openssl openssl-dev curl wget file libappindicator-gtk3-devel librsvg2-devel
+      set -- openssl openssl-devel curl wget file libappindicator-gtk3-devel librsvg2-devel
 
       # Webkit2gtk requires gstreamer plugins for video playback to work
       set -- "$@" gstreamer1-devel gstreamer1-plugins-base-devel gstreamer1-plugins-good \
@@ -210,7 +210,7 @@ case "$(uname)" in
       echo "Alpine suport is experimental" >&2
 
       # Tauri dependencies
-      set -- build-base curl wget file openssl-dev gtk+3.0-dev librsvg-dev \
+      set -- build-base curl wget file openssl-devel gtk+3.0-dev librsvg-dev \
         webkit2gtk-dev libayatana-indicator-dev
 
       # Webkit2gtk requires gstreamer plugins for video playback to work
